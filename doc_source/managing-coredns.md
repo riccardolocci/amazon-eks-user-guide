@@ -7,9 +7,9 @@ The following table lists the version of the CoreDNS add\-on that is deployed wi
 
 **CoreDNS version deployed with each Amazon EKS supported cluster version**  
 
-| Kubernetes version | `1.23` | `1.22` | `1.21` | `1.20` | `1.19` | 
-| --- | --- | --- | --- | --- | --- | 
-| CoreDNS | 1\.8\.7\-eksbuild\.2 | 1\.8\.7 | 1\.8\.4 | 1\.8\.3 | 1\.8\.0 | 
+| Kubernetes version | `1.23` | `1.22` | `1.21` | `1.20` | 
+| --- | --- | --- | --- | --- |
+| CoreDNS | 1\.8\.7\-eksbuild\.2 | 1\.8\.7-eksbuild\.1 | 1\.8\.4-eksbuild\.1 | 1\.8\.3-eksbuild\.1 |
 
 If you created a `1.18` or later cluster using the AWS Management Console, then Amazon EKS installed the add\-on for you as an Amazon EKS add\-on\. If you originally created a `1.17` or earlier cluster using any tool, or you created a `1.18` or later cluster using any tool other than the AWS Management Console, then Amazon EKS installed the plugin as a self\-managed add\-on for you\.
 
